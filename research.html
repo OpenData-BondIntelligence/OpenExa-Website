@@ -42,26 +42,28 @@
     ></script>
 
     <style>
-      .title,
-      .feed-title a {
-        font-size: 25px;
-        font-weight: 600;
-        color: #555555 !important;
-        font-family: 'Century Gothic';
-      }
-
-      .feed img {
-        width: 100px !important;
-      }
-
-      a[href="https://rss.bloople.net/"]
-      {
-        display: none;
-      }
-
       .pub {
         background-color: white;
-        padding: 5px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+      }
+
+      .pub p {
+        font-family: Century Gothic;
+        color: #444;
+        font-size: 14px;
+      }
+
+      .pub .title {
+        font-size: 25px;
+      }
+
+      .button {
+        background-color: rgb(67, 91, 119);
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
       }
     </style>
   </head>
@@ -153,17 +155,17 @@
               class="sk-ww-medium-publication-feed"
               data-embed-id="114317"
             ></div>
+
             <script
               src="https://widgets.sociablekit.com/medium-publication-feed/widget.js"
               async
               defer
             ></script>
             <br />
-            <div class="feed">
-              <script src="https://rss.bloople.net/?url=https%3A%2F%2Frss.app%2Ffeeds%2FCTQHwiAXYZa1bujo.xml&showtitle=false&type=js"></script>
-            </div>
-            <br />
-            <h4 class="title">Professor Philip Bond</h4>
+
+
+            <h4 style="font-size: 25px; font-family: Century Gothic;"><a href=https://www.forbes.com/sites/investor/people/bsherman/?sh=4a12d44d2f42" style="color: #555;"><strong>Barnet Sherman</strong></a> (Wall Street Insider)</h4>
+            <p>An impact investor and fund manager, his perspective comes from extensive investment career advising to, and making investments for pensions, mutual funds, insurance companies, family offices, and investment advisors.</p>
             <div
               style="
                 display: grid;
@@ -173,34 +175,89 @@
               "
             >
               <div class="pub">
-                <a
-                  href="http://faculty.washington.edu/apbond/research/CF_BOND_Philip_ESG,%20Panacea.pdf"
-                  ><p><strong>ESG: A panacea for market power?</strong></p></a
-                >
-                <p style="font-style: italic">With Doron Levit</p>
+                <img src="https://imageio.forbes.com/specials-images/imageserve/638ea5a3438bdb162693c5c5/Money-Flow-in-Black-Hole/960x0.jpg?format=jpg&width=960" alt="Mispriced Municipal Bonds Cost Mutual Fund Shareholders And Taxpayers Billions Of Dollars" width="100%" style="border-radius: 10px;" />
+                <p class="title"><strong>Mispriced Municipal Bonds Cost Mutual Fund Shareholders And Taxpayers Billions Of Dollars</strong></p>
+                <p style="font-style: italic;">Dec 5, 2022</p>
+                <p>
+                  The municipal bond market’s lack of trade data and lack of digitized financial data cause mispricing and lost value, costing mutual fund shareholders and taxpayers alike billions of dollars.
+                </p>
+                <a href="https://www.forbes.com/sites/investor/2022/12/05/mispriced-municipal-bonds-cost-mutual-fund-shareholders-and-taxpayers-billions-of-dollars/" class="button">Read More</a>
+              </div>
+              <div class="pub">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/63727b37d92828b05661196b/Houston-Scenics/960x0.jpg?format=jpg&width=960" alt="Municipal Bonds And ESG: All Hat, No Cattle" width="100%" style="border-radius: 10px;" />
+                <p class="title"><strong>Municipal Bonds And ESG: All Hat, No Cattle</strong></p>
+                <p style="font-style: italic;">Nov 14, 2022</p>
+                <p>
+                  For all of the municipal bond market's bluster about the importance of ESG risk in credit and value, it doesn't show up when it counts the most—in trade prices.
+                </p>
+                <a href="https://www.forbes.com/sites/investor/2022/11/14/municipal-bonds-and-esg-all-hat-no-cattle/" class="button">Read More</a>
+              </div>
+              <div class="pub">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/636935e0198425175442ae55/Gdansk--Poland--Pieces-of-amber-/960x0.jpg?format=jpg&width=960" alt="Relief For The Digital Data-Starved $3.9 Trillion Municipal Bond Market" width="100%" style="border-radius: 10px;" />
+                <p class="title"><strong>Relief For The Digital Data-Starved $3.9 Trillion Municipal Bond Market</strong></p>
+                <p style="font-style: italic;">Nov 7, 2022</p>
+                <p>
+                  The $3.9 trillion municipal bond market has no digital financial data.
+                </p>
+                <a href="https://www.forbes.com/sites/investor/2022/11/07/relief-for-the-digital-data-starved-39-trillion-municipal-bond-market/" class="button">Read More</a>
+              </div>
+              <div class="pub">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/63595fe22af6258fab08fd10/Capitol-Hill/960x0.jpg?format=jpg&width=960" alt="Small Muni Issuers See A Potential 620% Windfall For Their Taxpayers" width="100%" style="border-radius: 10px;" />
+                <p class="title"><strong>Small Muni Issuers See A Potential 620% Windfall For Their Taxpayers</strong></p>
+                <p style="font-style: italic;">Oct 27, 2022</p>
+                <p>
+                  The Financial Data Transparency Act offers a lottery-sized windfall for small muni issuers by digitizing their financial reporting.
+                </p>
+                <a href="https://www.forbes.com/sites/investor/2022/10/27/small-muni-issuers-see-a-potential-620-windfall-for-their-taxpayers/" class="button">Read More</a>
+              </div>
+              <div class="pub">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/5fa58012f1fc4d29db5c7b1d/Excited-Gold-Miner-hitting-the-Jackpot/960x0.jpg?format=jpg&width=960" alt="Stocks Versus Gold: Which Is A Better Investment? The Answer May Surprise You" width="100%" style="border-radius: 10px;" />
+                <p class="title"><strong>Stocks Versus Gold: Which Is A Better Investment? The Answer May Surprise You</strong></p>
+                <p style="font-style: italic;">Nov 9, 2020</p>
+                <p>
+                  Gold bugs like to point out that gold has outperformed the S&P 500 over the last 40 years. Not so fast.
+                </p>
+                <a href="https://www.forbes.com/sites/investor/2020/11/09/stocks-versus-gold-which-is-a-better-investment-the-answer-may-surprise-you/" class="button">Read More</a>
+              </div>
+            </div>
+
+
+            <br />
+            <h4 style="color: #555; font-size: 25px; font-family: Century Gothic;"><a href="https://foster.uw.edu/faculty-research/directory/philip-bond/" style="color: #555;"><strong>Philip Bond, Ph.D.</strong></a></h4>
+            <p>Edward E. Carlson Distinguished Professor in Business Administration, Finance and Business Economics (Foster School of Business). Notables: Co-editor, Journal of Finance (2016-2022), President, <a href="https://financetheory.org/">Finance Theory Group</a> (2016-2017)</p>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: 32% 32% 32%;
+                column-gap: 15px;
+                row-gap: 15px;
+              "
+            >
+              <div class="pub">
+                <p class="title"><strong>ESG: A panacea for market power?</strong></p>
+                <p style="font-style: italic;">With Doron Levit</p>
                 <p>
                   Equilibrium of product/labor markets when firms adopt ESG. And
                   equilibrium in ESG policies. Focuses on the S part of ESG.
                 </p>
+                <a href="http://faculty.washington.edu/apbond/research/CF_BOND_Philip_ESG,%20Panacea.pdf" class="button">Read More</a>
               </div>
               <div class="pub">
-                <a
-                  href="http://faculty.washington.edu/apbond/research/Automation.pdf"
-                  ><p>
+                <p class="title">
                     <strong
                       >Automation, financial frictions, and the long-run labor
                       share</strong
                     >
-                  </p></a
-                >
+                  </p>
                 <p style="font-style: italic">With Lukas Kremens</p>
                 <p>
                   Does automation benefit or harm workers? Will complete
                   automation drive the labor share to zero?
                 </p>
+                <a href="http://faculty.washington.edu/apbond/research/Automation.pdf" class="button">Read More</a>
               </div>
               <div class="pub">
-                <p><strong>Share issues versus share repurchases</strong></p>
+                <p class="title"><strong>Share issues versus share repurchases</strong></p>
                 <p style="font-style: italic">With Yue Yuan and Hongda Zhong</p>
                 <p>
                   Asymmetric information -> share issues and share repurchases
@@ -208,27 +265,22 @@
                 </p>
               </div>
               <div class="pub">
-                <a
-                  href="http://faculty.washington.edu/apbond/research/20190724.pdf"
-                  ><p>
+                <p class="title">
                     <strong
                       >Ordering information content using the quantile
                       function.</strong
                     >
-                  </p></a
-                >
+                  </p>
                 <p>
                   Lehmann's (1988) information ordering is equivalent to
                   single-crossing of the quantile function.
                 </p>
+                <a href="http://faculty.washington.edu/apbond/research/20190724.pdf" class="button">Read More</a>
               </div>
               <div class="pub">
-                <a
-                  href="http://faculty.washington.edu/apbond/research/annurev-financial-110311-101826.pdf"
-                  ><p>
+                <p class="title">
                     <strong>The real effects of financial markets</strong>
-                  </p></a
-                >
+                  </p>
                 <p style="font-style: italic">
                   With Alex Edmans and Itay Goldstein, 2012, volume 4, pages
                   339-360, Annual Review of Financial Economics.
@@ -237,9 +289,10 @@
                   Lehmann's (1988) information ordering is equivalent to
                   single-crossing of the quantile function.
                 </p>
+                <a href="http://faculty.washington.edu/apbond/research/annurev-financial-110311-101826.pdf" class="button">Read More</a>
               </div>
               <div class="pub">
-                <p><strong>The equilibrium consequences of indexing</strong></p>
+                <p class="title"><strong>The equilibrium consequences of indexing</strong></p>
                 <p style="font-style: italic">With Diego Garcia</p>
                 <p>Part of Book "Review of Financial Studies"</p>
               </div>
