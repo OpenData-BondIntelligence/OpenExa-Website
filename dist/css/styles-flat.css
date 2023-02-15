@@ -18528,6 +18528,14 @@ body {
 .card {
   box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
 }
+
+.team-row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
 .card .card-header {
   font-weight: 500;
 }
