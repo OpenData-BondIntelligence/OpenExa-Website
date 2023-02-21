@@ -5746,6 +5746,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
+  width: 100% !important;
   position: relative;
   display: flex;
   flex-wrap: wrap;
