@@ -19704,6 +19704,14 @@ body {
   grid-template-columns: 33% 33% 33%;
 }
 
+.research-padding {
+  padding: 0 150px;
+}
+
+.team-padding {
+  padding: 0 100px;
+}
+
 @media only screen and (max-width: 800px) {
   .research-grid {
     grid-template-columns: 50% 50%;
@@ -19720,6 +19728,10 @@ body {
   .navbar-brand img {
     width: 50px !important;
     height: 40px !important;
+  }
+
+  .research-padding, .team-padding {
+    padding: 0px 50px;
   }
 }
 
